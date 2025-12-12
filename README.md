@@ -5,7 +5,7 @@ Este repositório registra minha evolução no aprendizado de Python desde o pri
 Aqui você encontrará exercícios e mini-projetos sobre diferentes conceitos, como:
 
 - **Tipos Primitivos**: int, float, bool, string, entrada de dados com input, uso de f-strings
-- **Listas e Loops**: listas, loops for, manipulação de listas
+- **Listas e Loops**: listas, loops for, manipulação de listas, inserção de variáveis em listas com: .append()
 - **Condicionais**: if/else, verificações de condições
 - **Mini-Projetos**: pequenos códigos que combinam os conceitos aprendidos
 
