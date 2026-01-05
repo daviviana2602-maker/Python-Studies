@@ -1,0 +1,10 @@
+print(len('hello, good morning'))
+print('hello, good morning'.count('l')) 
+
+print('hello, good morning'[0])
+print('hello, good morning'[0:6])
+print('hello, good morning'[0:5])
+print('hello, good morning'[7:11])
+print('hello, good morning'[7:])
+print('hello, good morning'[:7]) 
+print('hello, good morning'[7::2])
