@@ -13,3 +13,6 @@ print('   hello, good morning   '.rstrip()) #removes extra spaces at the end
 
 print('hello, good morning bro'.split()) #divide the strings into a list
 print(' '.join(['hello,', 'good', 'morning', 'bro'])) #join the strings
+
+frase = 'arroz'
+print('A' in frase.upper())
