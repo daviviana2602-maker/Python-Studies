@@ -1,33 +1,41 @@
-#............Python — while, try & except (Summary).............
-
-#* while
-#Repete um código enquanto a condição for True:
+#===== while=====
+#Repeat code while the condition is True:
 #while condition:
-#    code
-#Para quando a condição vira False.
+#code
+#Stops when the condition becomes False.
 
-#* while True
-#Loop infinito. Só para com break.
+#===== while True =====
+#Infinite loop. Only stops with break.
 #while True:
-#    if condition:
-#        break
-#Usado quando você não sabe quantas tentativas o usuário vai precisar.
-#* break
-#Encerra o loop imediatamente.
+#if condition:
 
-#* try
-#Testa um código que pode dar erro (ex: input do usuário).
+#===== break =====
+#Stops the loop immediately.
+#Used when you don't know how many attempts the user will need.
+
+#===== try =====
+#Tests code that may cause an error (e.g., user input).
 #try:
-#    risky_code
-#Se der erro, o programa não quebra.
+#risky_code
+#If an error occurs, the program does not break.
 
-#* except
-#Captura o erro do try.
+#===== except =====
+#Captures the error from the try block.
 #except ValueError:
-#    handle_error
 
-#ValueError
-#Acontece quando o valor existe, mas é inválido:
-#letras
-#símbolos
-#formato errado
+#===== ValueError =====
+#Occurs when the value exists but is invalid:
+#letters
+#symbols
+#wrong format
+
+#===== def =====
+#Define a function.
+#def function_name(parameters):
+
+#===== return =====
+#Ends the function and returns a result.
+#use return to get the result of a function
+
+#===== parameters =====
+#if a function needs something to work, insert the item in parameters
