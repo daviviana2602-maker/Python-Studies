@@ -1,9 +1,9 @@
             #=====STORAGE=====#
 
-#[]  → listas
+#[]  → lists
 
-#()  → tuplas
+#()  → tuples
 
-#{}  → dicionários (if has key : value)
+#{}  → dictionaries (if has key : value)
 
 #{}  → sets (if dont has key : value)

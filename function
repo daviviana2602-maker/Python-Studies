@@ -1,0 +1,44 @@
+#===== while=====
+#Repeat code while the condition is True:
+#while condition:
+#code
+#Stops when the condition becomes False.
+
+#===== while True =====
+#Infinite loop. Only stops with break.
+#while True:
+#if condition:
+
+#===== break =====
+#Stops the loop immediately.
+#Used when you don't know how many attempts the user will need.
+
+#===== continue =====
+#reset loop and continue your while True
+
+#===== try =====
+#Tests code that may cause an error (e.g., user input).
+#try:
+#risky_code
+#If an error occurs, the program does not break.
+
+#===== except =====
+#Captures the error from the try block.
+#except ValueError:
+
+#===== ValueError =====
+#Occurs when the value exists but is invalid:
+#letters
+#symbols
+#wrong format
+
+#===== def =====
+#Define a function.
+#function_name(parameters):
+
+#===== return =====
+#Ends the function and returns a result.
+#use return to get the result of a function
+
+#===== parameters =====
+#if a function needs something to work, insert the item in parameters

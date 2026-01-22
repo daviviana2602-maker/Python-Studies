@@ -1,0 +1,21 @@
+print('hello, good morning'.find('llo')) #llo started in position two
+print('hello' in 'hello, good morning') #Verify if the string exists
+print('hello, good morning'.replace('hello', 'olá')) #change strings, spaces, numbers and all items.
+print('hello, good morning'.count('l')) 
+
+print('hello, good morning'.capitalize()) #first letter uppercase
+print('hello, good morning'.title()) #first letter of each word uppercase
+print('HELLO, GOOD MORNING'.lower()) #all letters lowercase
+print('hello, good morning'.upper()) #all letters uppercase
+
+print('   hello, good morning   '.strip()) #removes extra spaces in start and end, but not in mid
+print('   hello, good morning   '.lstrip()) #removes extra spaces at the beginning
+print('   hello, good morning   '.rstrip()) #removes extra spaces at the end
+
+print('hello, good morning bro'.split()) #divide the strings into a list
+print(' '.join(['hello,', 'good', 'morning', 'bro'])) #join the strings
+
+for i in range(3): #loop "i" in interval(quantity):
+    nome = input(f"Digite o nome da pessoa {i+1}: ")
+    idade = int(input(f"Digite a idade de {nome}: "))
+    cidade = input(f"Digite a cidade de {nome}: ")

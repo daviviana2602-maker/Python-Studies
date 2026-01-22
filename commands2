@@ -1,0 +1,45 @@
+#set(): Creates a set (no duplicates, no order).
+#set([1, 2, 2, 3]) = {1, 2, 3}
+
+#len: Counts number of elements.
+#len('hello, good morning') = 19
+#len([1, 2, 2, 3]) = 4
+
+#is: Checks if it's the same object in memory.
+#x is y → True if x and y are the same object.
+
+#or: one or the other
+#x or y → x if x is true, else y.
+
+#and: (and) needs one and the other
+#x and y → x if x is false, else y.
+
+#in: Checks if element is in a sequence.
+#x in lista → True if x is in the list.
+
+#not in: Checks if element is not in a sequence.
+#x not in lista → True if x is not in the list.
+
+#sum(): sum all values of list
+#sum(list)
+
+#min(): return the smaller list value
+#min(list)
+
+#max(): return the bigger list value
+#max(list)
+
+#sorted(): organize the list in alphabetical order
+#sorted(list)
+
+#.index(): show first value/str position in list
+#list.index(x)
+
+#del(): delete variable/lists
+#del(x)
+
+# end: prints the next output in the same line
+# print(value) , end = ' '
+
+# \n: line break
+# print('Hello\nWorld') 
