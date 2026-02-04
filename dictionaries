@@ -1,0 +1,38 @@
+#STUDY DICTIONARIES
+
+#rekey items from your dictionary:
+#del dict['key'] 
+
+#add items in dictionary:
+#dict['new key'] = 'value' 
+
+
+#dictionary:
+people = {
+    'name': 'Pedro',
+    'age': 15,
+} 
+
+print(people['name'])
+print(people['age'])
+
+people['sex'] = 'masculino' #add items in dictionary (dont use .append())
+print(people)
+
+
+print(people.keys()) #print keys from your dictionary
+print(people.values()) #print values from your dictionary
+print(people.items()) #print all from your dictionary
+
+for k , v in people.items(): #k = key and v = value
+    print(f'your {k} is: {v}')
+    
+    
+test = people.copy() #create a copy of dictionary people
+print(test)
+
+#ORGANIZATION
+
+#list = sorted(list, key = lambda x: x['key'], reverse = True)  #descending order 
+
+#list = sorted(list, key = lambda x: x['key'])  #ascending order
