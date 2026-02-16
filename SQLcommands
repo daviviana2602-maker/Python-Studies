@@ -1,0 +1,111 @@
+#===== PostgreSQL =====#
+ 
+#comment in SQL with: /* */
+
+
+
+# ======================================================================== #
+
+#BASIC COMMANDS:
+
+
+#select * from 'table'                     : select all of the table
+
+#select * from 'table' where id = x        : select all of the table where id = x
+
+
+
+#delete from 'table' where id = x          : delete some part
+
+#truncate table 'table' restart identity   : delete the table and reset ID
+
+
+
+#drop table 'table'                         : delete the selected table
+
+#drop table if exists 'table'               : exclude the table depends on contitional
+
+#drop table if exists 'table' cascades      : exclude the table and all that depend on it   
+
+
+
+#alter table 'table'
+#add column 'column' TIMESTAMP              : add a column in your table
+
+
+
+
+# ======================================================================== #
+
+#COMMANDS
+
+
+# bigint: always used with id
+# VARCHAR(x): numbers and letters
+# DATE: used for dates
+# TEXT: just letters
+# not null: never empty
+# default: to standard
+
+
+
+
+# ========================================================================== #
+
+#CREATE A TABLE:
+
+
+#create table if not exists customers (  
+    #id bigint generated always as identity primary key,
+
+    #nome VARCHAR(150) not null,
+    #telefone VARCHAR(30),
+    #documento VARCHAR(20),
+
+    #data_nascimento DATE,
+
+    #obs TEXT,
+
+    #status VARCHAR(20) not null default 'ativo',
+
+    #created_at TIMESTAMP not null default current_timestamp  
+#)
+
+
+
+
+# ========================================================================== #
+
+#INSERT DATA IN THE TABLE USING THE RESPECTIVES COLUMNS through DBeaver:
+
+
+#insert into customers (
+    #nome,
+    #telefone,
+    #documento,
+    #data_nascimento,
+    #obs,
+    #status
+#)
+#values (
+    #'João Carlos',
+    #'4199999999',
+    #'12345678900',
+    #'1945-05-10',
+    #'idoso',
+    #'ativo'
+#)
+
+
+
+
+# ========================================================================== #
+
+#UPDATE A SPECIFIC COLUMN IN THE TABLE
+
+
+#update 'customers'
+#set telefone = '4196666666',
+    #updated_at = current_timestamp,
+    #obs = 'Atualizado.'
+#where id = x
