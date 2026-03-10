@@ -11,6 +11,7 @@ Aqui você encontrará exercícios e mini-projetos sobre diferentes conceitos, c
 - **Operações Aritméticas**: códigos explicativos
 - **Utilização de bibliotecas**
 - **SQL**
+- - **Git**
 - **Comandos gerais conforme aprendizado**
  
 Meu objetivo é registrar cada passo da minha aprendizagem em Python e evoluir constantemente.
