@@ -12,6 +12,7 @@ Aqui você encontrará exercícios e mini-projetos sobre diferentes conceitos, c
 - **Utilização de bibliotecas**
 - **SQL**
 - **Git**
+- **Comandos do Terminal**
 - **Comandos gerais conforme aprendizado**
  
 Meu objetivo é registrar cada passo da minha aprendizagem em Python e evoluir constantemente.
