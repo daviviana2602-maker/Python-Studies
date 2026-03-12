@@ -44,11 +44,6 @@
 # Envia commits posteriores para o GitHub (não precisa do -u toda vez)
 #   git push
 
-
-# Cria uma nova Branch
-#   git branch -M Branch name
-
-
 # muda para outra Branch
 #   git branch -M Branch name
 
