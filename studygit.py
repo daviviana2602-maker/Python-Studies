@@ -33,6 +33,10 @@
 #   git remote add origin https://github.com/seu_usuario/seu_repositorio.git
 
 
+# Remove o repositório a qual o projeto estava referenciado
+#   git remote remove origin
+
+
 # Envia os commits locais para o GitHub (primeiro push com -u)
 #   git push -u origin Branch name
 
