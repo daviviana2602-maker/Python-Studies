@@ -1,22 +1,24 @@
-# Python-Studies
+# Back End Studies
 
-Este repositório registra minha evolução no aprendizado de Python desde o primeiro dia.
+Este repositório contém meus estudos e experimentos com **Python** e, futuramente, **FastAPI**.  
+Aqui organizo scripts, mini projetos e testes que ajudam a evoluir minhas habilidades como backend developer.
 
-Aqui você encontrará exercícios e mini-projetos sobre diferentes conceitos, como:
 
-- **Tipos Primitivos**: int, float, bool, string, entrada de dados com input, uso de f-strings
-- **Listas e Loops**: listas, loops for, manipulação de listas, inserção de variáveis em listas com: .append()
-- **Condicionais**: if/else, verificações de condições, teste de tipos
-- **Mini-Projetos**: pequenos códigos que combinam os conceitos aprendidos
-- **Operações Aritméticas**: códigos explicativos
-- **Utilização de bibliotecas**
-- **SQL**
-- **Git**
-- **Comandos do Terminal**
-- **Comandos gerais conforme aprendizado**
- 
-Meu objetivo é registrar cada passo da minha aprendizagem em Python e evoluir constantemente.
+## Por que estudar backend
 
----
+- **Aprender lógica e estrutura de dados** – dominar Python me permite construir sistemas eficientes e escaláveis.  
+- **Testar APIs e serviços próprios** – consigo criar, testar e integrar minhas APIs sozinho, sem depender do serviço de terceiros.  
+- **Preparar para projetos completos e freelas** – me torna capaz de desenvolver sistemas inteiros sozinho, do processamento de dados ao servidor.
 
-📌 Observação: Este repositório é voltado para estudo pessoal, mas também pode ser usado como portfólio inicial para mostrar minha evolução.
+
+## Objetivo
+
+- Praticar conceitos fundamentais de backend.  
+- Criar scripts e APIs funcionais para aprendizado e teste.  
+- Organizar uma base clara para revisões futuras.
+
+
+## Observações
+
+- Arquivos experimentais; foco no aprendizado e não em produção.  
+- Ideal para acompanhar evolução e consultar exemplos de backend.
