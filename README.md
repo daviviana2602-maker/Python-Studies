@@ -1,7 +1,7 @@
 # Back End Studies
 
 Este repositório contém meus estudos e experimentos com **Python** e, futuramente, **FastAPI**.  
-Aqui organizo scripts, mini projetos e testes que ajudam a evoluir minhas habilidades como backend developer.
+Aqui organizo scripts e testes que ajudam a evoluir minhas habilidades como backend developer.
 
 
 ## Por que estudar backend
