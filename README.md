@@ -1,4 +1,4 @@
-# Back End Studies
+# Python Studies
 
 Este repositório contém meus estudos e experimentos com **Python**.  
 Aqui organizo scripts e testes que ajudam a evoluir minhas habilidades como backend developer.
